@@ -1,0 +1,7 @@
+{
+  "name": "proyect-noticiero",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

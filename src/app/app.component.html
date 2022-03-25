@@ -1,0 +1,53 @@
+
+<ion-app  color= "primary">
+
+
+  <ion-menu-toggle  color= "primary">
+    <ion-menu side="start" menuId="first" contentId="main"  >
+      <ion-header >
+        <ion-toolbar  color= "primary" >
+          <ion-buttons slot="start">
+               <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+              <ion-title>
+                 Menú
+                </ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item  routerLink="inicio"><ion-icon name="home"></ion-icon> Inicio</ion-item>
+          <ion-item  routerLink="./internet"><ion-icon name="wifi"></ion-icon>Internet </ion-item>
+          <ion-item   routerLink="./cable"><ion-icon name="tv"></ion-icon>Cable </ion-item>
+          <ion-item  routerLink="./ofertas"><ion-icon name="storefront"></ion-icon>Ofertas</ion-item>
+          <ion-item   routerLink="./radio"> <ion-icon name="radio"></ion-icon>Radio</ion-item>
+        </ion-list>
+
+      </ion-content>
+
+</ion-menu>
+</ion-menu-toggle>
+
+
+<ion-fab horizontal="end" vertical="bottom" slot="fixed" >
+  <ion-fab-button><ion-icon name="share-social-outline"></ion-icon></ion-fab-button>
+  <ion-fab-list side="top">
+    <ion-fab-button href="https://www.facebook.com/" target="_blank">
+   <ion-icon name="logo-facebook" color="primary" ></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button href="https://twitter.com/?lang=es" target="_blank">
+      <ion-icon name="logo-twitter" color="primary"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button href="https://www.youtube.com/" target="_blank">
+      <ion-icon name="logo-youtube" color="danger"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-button href="https://www.instagram.com/?hl=es" target="_blank">
+      <ion-icon name="logo-instagram" color="danger"></ion-icon>
+    </ion-fab-button>
+  </ion-fab-list>
+</ion-fab>
+<ion-router-outlet id="main"></ion-router-outlet>
+
+
+</ion-app>

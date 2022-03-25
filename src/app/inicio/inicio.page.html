@@ -1,0 +1,137 @@
+<!-- <nav class="navbar navbar-dark bg-dark text-white">
+  <ion-title>
+    NotiApp
+  </ion-title>
+</nav> -->
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+  </ion-buttons>
+  <ion-title>
+    NotiApp
+  </ion-title>
+</ion-toolbar>
+
+<ion-content>
+
+<div class="card-group ">
+<div id="carouselExampleIndicators" class="carousel slide container   carousel-mobile " data-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div  class="carousel-inner">
+
+<div  class="carousel-item active" data-bs-interval="3000">
+  <div  class="fondo">
+    <div  class="texto">
+      <div class="card-body">
+<h5 class="card-title">Card title</h5>
+<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+</div>
+
+    </div>
+  </div>
+
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+  <div  class="fondo2">
+  <div  class="texto">
+    <br>
+    <h5> Qs</h5>
+    <br>
+      <p class="texto2">Some representative placeholder content for the second slide.</p>
+
+  </div>
+  </div>
+</div>
+<div class="carousel-item" data-bs-interval="3000">
+  <div  class="fondo3">
+  <div  class="texto">
+
+    <h5> 50 MB</h5>
+    <br>
+      <p class="parrafo">Some representative placeholder content for the second slide.</p>
+
+
+  </div>
+  </div>
+
+</div>
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Anterior</span>
+</button>
+<button class="carousel-control-next" type="button" role="button"data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Siguiente</span>
+</button>
+</div>
+
+</div>
+<br>
+<h1 style="text-align: center;">
+Servicios de WiFi, TV y Radio
+</h1>
+<div class="card-header">
+
+<div class="card-group ">
+<div class="card">
+<img src="../../assets/fondo2.jpg" class="card-img-top" alt="...">
+<div class="card-body" style="color: black;">
+  <h5 class="card-title">Internet</h5>
+    <p class="card-text">Conoce todos los packs de internet disponibles </p>
+     <button type="button" class="btn btn-outline-primary"
+            style="border-radius: 55px;" routerLink="/internet"
+            target="_blank">
+      Saber mas
+     </button>
+</div>
+
+</div>
+<div class="card">
+<img src="../../assets/fondo3.jpg" class="card-img-top" alt="...">
+<div class="card-body" style="color: black;">
+  <h5 class="card-title">Cable</h5>
+    <p class="card-text">Conoce todas las opciones disponibles.</p>
+  <br>
+    <button type="button" class="btn btn-outline-primary"
+          style="border-radius: 55px;"  routerLink="/cable">
+          Saber mas
+    </button>
+</div>
+
+</div>
+<div class="card">
+  <img src="../../assets/fondo.jpg" class="card-img-top" alt="...">
+  <div class="card-body" style="color: black;">
+    <h5 class="card-title">Ofertas</h5>
+      <p class="card-text">Internet+ Cable+ Packs de Futbol .</p>
+    <br>
+    <button type="button" class="btn btn-outline-primary"
+            style="border-radius: 55px;" routerLink="/ofertas">
+              Saber mas
+    </button>
+  </div>
+</div>
+
+  <div class="card">
+  <img src="../../assets/fondo3.jpg" class="card-img-top" alt="...">
+    <div class="card-body" style="color: black;">
+     <h5 class="card-title">Radio</h5>
+       <p class="card-text">Escucha la mejor radio para estar siempre al tanto de todas las noticias</p>
+       <button type="button" class="btn btn-danger"
+               style="border-radius: 55px;"  routerLink="/radio">
+                 Escuchar radio
+       </button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+</ion-content>
